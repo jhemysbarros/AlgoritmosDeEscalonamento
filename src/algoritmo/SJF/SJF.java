@@ -11,7 +11,9 @@ public class SJF extends JFrame {
 
 	private static final long serialVersionUID = 4464148814191331870L;
 
+	// Instancia da Classe Processo, responsável por inserir os processos no vetor.
 	private Processo fila[];
+	
 	private int qtd, soma = 0, soma2 = 0;
 	private double mtempo, mturn;
 	Container tela;

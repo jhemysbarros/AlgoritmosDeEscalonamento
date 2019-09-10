@@ -11,7 +11,9 @@ public class SRTF extends JFrame {
 
 	private static final long serialVersionUID = -771455137979426823L;
 
+	// Instancia da Classe Processo, responsável por inserir os processos no vetor.
 	private Processo fila[];
+	
 	private int qtd;
 	Container tela;
 	JButton iniciar;

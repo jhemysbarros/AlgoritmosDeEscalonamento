@@ -11,7 +11,9 @@ public class FIFO extends JFrame {
 
 	private static final long serialVersionUID = 3487327390072689670L;
 
+	// Instancia da Classe Processo, responsável por inserir os processos no vetor.
 	private Processo fila[];
+	
 	private int qtd, soma = 0, soma2 = 0;
 	private double tmedio, turnmedio;
 	Container tela;
@@ -38,7 +40,6 @@ public class FIFO extends JFrame {
 		setSize(450, 450);
 		setVisible(true);
 		iniciar_Click();
-
 	}
 
 	private void iniciar_Click() {

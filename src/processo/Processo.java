@@ -1,5 +1,7 @@
 package processo;
+
 public class Processo {
+
 	private String name;
 	private int burst;
 	private int burstado;
